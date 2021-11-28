@@ -14,6 +14,7 @@ var swaggerJSDoc = require("swagger-jsdoc");
 var mongoose = require("mongoose");
 var composerAPI = require("./routes/hoffman-composer-routes");
 var personRoutes = require("./routes/hoffman-person-routes");
+var userRoutes = require(./routes/hoffman-session-routes");
 
 //Assigning Variable App to express library
 var app = express();
